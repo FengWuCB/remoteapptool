@@ -405,7 +405,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.TopLevelRadioButton.AutoSize = True
         Me.TopLevelRadioButton.Location = New System.Drawing.Point(366, 17)
         Me.TopLevelRadioButton.Name = "TopLevelRadioButton"
-        Me.TopLevelRadioButton.Size = New System.Drawing.Size(72, 19)
+        Me.TopLevelRadioButton.Size = New System.Drawing.Size(71, 19)
         Me.TopLevelRadioButton.TabIndex = 4
         Me.TopLevelRadioButton.Text = "Top level"
         Me.TopLevelRadioButton.UseVisualStyleBackColor = True
@@ -627,6 +627,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "RemoteAppCreateClientConnection"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
         Me.Text = "RemoteAppCreateClientConnection"
         Me.ServerGroupBox.ResumeLayout(False)
         Me.ServerGroupBox.PerformLayout()
